@@ -1,0 +1,24 @@
+/*
+  1.命名规则：
+    效果-作用单元-属性（多含义用_分隔）
+  2.属性规则：
+    一律使用.classname命名
+  3.所有核心文件都继承object文件（object是所有核心文件的父文件）  
+*/
+html,body {
+  font-family: "微软雅黑","Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+  font-size: 1em;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
